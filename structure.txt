@@ -1,0 +1,77 @@
+.
+├── analysis_options.yaml
+├── assets
+│   └── images
+│       ├── avatar.webp
+│       ├── facebook.webp
+│       ├── instagram.webp
+│       ├── threads.webp
+│       ├── tiktok.webp
+│       ├── twitter_logo.png
+│       └── x.webp
+├── lib
+│   ├── main.dart
+│   ├── pages
+│   │   ├── app_item
+│   │   │   ├── app_item_binding.dart
+│   │   │   ├── app_item_controller.dart
+│   │   │   └── app_item_page.dart
+│   │   ├── app_list
+│   │   │   ├── app_list_binding.dart
+│   │   │   ├── app_list_controller.dart
+│   │   │   ├── app_list_page.dart
+│   │   │   └── widgets
+│   │   │       ├── post_item_controller.dart
+│   │   │       ├── post_item_placeholder_widget.dart
+│   │   │       └── post_item_widget.dart
+│   │   ├── games_list
+│   │   │   ├── game_list_binding.dart
+│   │   │   ├── game_list_controller.dart
+│   │   │   └── game_list_page.dart
+│   │   ├── home
+│   │   │   ├── home_binding.dart
+│   │   │   ├── home_controller.dart
+│   │   │   └── home_page.dart
+│   │   ├── log_in
+│   │   │   ├── log_in_binding.dart
+│   │   │   ├── log_in_controller.dart
+│   │   │   └── log_in_page.dart
+│   │   ├── new_post
+│   │   │   ├── new_post_binding.dart
+│   │   │   ├── new_post_controller.dart
+│   │   │   └── new_post_page.dart
+│   │   ├── other
+│   │   │   ├── other_binding.dart
+│   │   │   ├── other_controller.dart
+│   │   │   └── other_page.dart
+│   │   ├── sign_up
+│   │   │   ├── sign_up_binding.dart
+│   │   │   ├── sign_up_controller.dart
+│   │   │   └── sign_up_page.dart
+│   │   └── welcome
+│   │       ├── welcome_binding.dart
+│   │       ├── welcome_controller.dart
+│   │       └── welcome_page.dart
+│   ├── services
+│   │   ├── account_service_mock.dart
+│   │   ├── account_service.dart
+│   │   ├── comment_service_mock.dart
+│   │   ├── comment_service.dart
+│   │   ├── models
+│   │   │   ├── comment_item.dart
+│   │   │   └── post_item.dart
+│   │   ├── post_service_mock.dart
+│   │   └── post_service.dart
+│   ├── utils.dart
+│   └── widgets
+│       └── loading_overlay
+│           ├── loading_overlay_controller.dart
+│           └── loading_overlay_widget.dart
+├── pubspec.lock
+├── pubspec.yaml
+├── README.md
+├── structure.txt
+├── test
+└── workshop_0.iml
+
+20 directories, 55 files
